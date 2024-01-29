@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // ANONYMOUS FUNCTION, FUNCTION WITH NO NAME
+        const function1 = function() {
+            console.log('hello')
+        }
+        function1();
+
+        // setTimeout() : allows to run function in the future, two parameters: function and time(in milliseconds)
+        // This is ASYNCHRONOUS CODE
+        setTimeout(function(){
+            console.log('timeout')
+            console.log('timeout2')
+        }, 3000)
+
+        // KEEP RUNNING THE FUNCTION EVERY 3 SECONDS
+        // THIS IS ALSO ASYNCHRONOUS
+        setInterval(function(){
+            console.log('interval')
+        }, 3000)
+    </script>
+</body>
+</html>

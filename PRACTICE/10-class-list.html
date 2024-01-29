@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .is-subscribed {
+            background-color: grey;
+            color : white;
+        }
+    </style>
+</head>
+<body>
+    <input class="input" placeholder="Type something" onkeyup="keyUp()">
+    <p class="para"></p>
+    <script>
+        function keyUp() {
+            let input = document.querySelector('.input')
+            let output = document.querySelector('.para');
+            output.textContent = input.value;
+            // ADDING CLASS TO INPUT ELEMENT
+            input.classList.add('is-subscribed');
+        }
+        
+    </script>
+</body>
+</html>

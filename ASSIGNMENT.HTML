@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMATION</title>
+    <style>
+        body {
+            background: black;
+            text-align: center;
+        }
+        img{
+            max-height: 50%;
+            height: 400px;
+            width : 400px;
+        }
+        .lightbox{
+            display:none;
+            /* Overlay entire screen */
+            position: fixed;
+            top : 0;
+            left : 0;
+            right : 0;
+            bottom : 0;
+            /* Translucent background */
+            background-color: rgba(0,0,0,0.8);
+        }
+        /* Unhide the lightbox when it's the target */
+        .lightbox:target {
+            display: block;
+        }
+        .lightbox span{
+            /* Full width and height */
+            display : block;
+            width : 100%;
+            height : 100%;
+            /* Size and position background image */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size : contain;
+        }
+    </style>
+</head>
+<body>
+    <a href="#img">
+        <img src="image.png">
+    </a>
+    <a href="" class="lightbox" id="img">
+        <span style="background-image: url(image.png);"></span>     
+    </a>
+
+    <a href="#img1">
+        <img src="pretty.jpeg">
+    </a>
+    <a href="" class="lightbox" id="img1">
+        <span style="background-image: url(pretty.jpeg);"></span>     
+    </a>
+    <a href="#img2">
+        <img src="dice.jpg">
+    </a>
+    <a href="" class="lightbox" id="img2">
+        <span style="background-image: url(dice.jpg);"></span>     
+    </a>
+    <a href="#img3">
+        <img src="banana.jpeg">
+    </a>
+    <a href="" class="lightbox" id="img3">
+        <span style="background-image: url(banana.jpeg);"></span>     
+    </a>
+
+    <a href="#img4">
+        <img src="plant.webp">
+    </a>
+    <a href="" class="lightbox" id="img4">
+        <span style="background-image: url(plant.webp);"></span> 
+
+    <a href="#img5">
+        <img src="tree.jpeg">
+    </a>
+    <a href="" class="lightbox" id="img5">
+        <span style="background-image: url(tree.jpeg);"></span> 
+
+    <a href="#img6">
+        <img src="dog.jpeg">
+    </a>
+    <a href="" class="lightbox" id="img6">
+        <span style="background-image: url(dog.jpeg);"></span>
+
+    <a href="#img7">
+        <img src="squirrel.jpeg">
+    </a>
+    <a href="" class="lightbox" id="img7">
+        <span style="background-image: url(squirrel.jpeg);"></span>
+
+    <a href="#img8">
+        <img src="racoon.jpg">
+    </a>
+    <a href="" class="lightbox" id="img8">
+        <span style="background-image: url(racoon.jpg);"></span>
+
+    <a href="#img9">
+        <img src="pezar.jpeg">
+    </a>
+    <a href="" class="lightbox" id="img9">
+        <span style="background-image: url(pezar.jpeg);"></span>
+
+    <a href="#img10">
+        <img src="shrek.avif">
+    </a>
+    <a href="" class="lightbox" id="img10">
+        <span style="background-image: url(shrek.avif);"></span>
+
+    <a href="#img11">
+        <img src="MatRandom_12.jpg">
+    </a>
+    <a href="" class="lightbox" id="img11">
+        <span style="background-image: url(MatRandom_12.jpg);"></span>
+
+    <a href="#img12">
+        <img src="blackhole.gif">
+    </a>
+    <a href="" class="lightbox" id="img12">
+        <span style="background-image: url(blackhole.gif);"></span>
+
+    <a href="#img13">
+        <img src="car.gif">
+    </a>
+    <a href="" class="lightbox" id="img13">
+        <span style="background-image: url(car.gif);"></span>
+
+    <a href="#img14">
+        <img src="giphy.gif">
+    </a>
+    <a href="" class="lightbox" id="img14">
+        <span style="background-image: url(giphy.gif);"></span>
+    
+    <a href="#img15">
+        <img src="google gif.gif">
+    </a>
+    <a href="" class="lightbox" id="img15">
+        <span style="background-image: url(google\ gif.gif);"></span>
+
+
+</body>
+</html>

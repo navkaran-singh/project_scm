@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        console.log('hello'.length);
+        console.log('hello'.toUpperCase());
+        const product = {
+            name : 'basketball',
+            price : 2095,
+        }
+        product['delivery-time'] = '3 days';
+        console.log(product);
+    </script> -->
+
+    <!-- <button onclick="chooseCoin('Heads')">Heads</button>
+    <button onclick="chooseCoin('Tails')">Tails</button>
+    <p class="output"></p>
+    <script>
+        function chooseCoin(value) {
+            let sol = document.querySelector('.output');
+            sol.innerHTML = `You chose: ${value}`;
+        }
+    </script> -->
+
+    
+    <!-- 9d&9e -->
+
+    <!-- REVISIT THIS -->
+    <input class="input" onkeydown="handleCostKeyDown()">
+
+    <button onclick="submit()">Submit</button>
+    <p class="output"></p>
+    <script>
+        let text = document.querySelector('.input');
+        let sol = document.querySelector('.output')
+
+        // REVISIT THIS
+        function handleCostKeyDown() {
+            if (event.key==='Enter') {
+                submit();
+            }
+        }
+
+        function submit() {
+            const happy = text.value;
+            sol.innerHTML = `Your name is ${happy}`
+        }
+    </script>
+
+
+
+</body>
+</html>

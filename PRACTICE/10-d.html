@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .not-toggled {
+            background-color: rgb(216, 214, 214);
+            border-radius: 10px;
+            padding : 5px 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .is-toggled{
+            background-color: black;
+            color:cyan;
+        }
+    </style>
+</head>
+<body>
+    <button class="not-toggled" onclick="lick()">Gaming</button>
+    <script>
+        function lick() {
+            let control = document.querySelector('.not-toggled')
+            control.classList.add("is-toggled")
+            // if(control.classList==='not-toggled') {
+            //     control.classList.add("is-toggled")
+            // } else {
+            //     control.classList.add("not-toggled")
+            // }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <button>hello</button>
+    <button class="js-button">Second button</button>
+    <script>
+        document.querySelector('button')
+        console.log(document.querySelector('button'));
+
+        const buttonElement = document.querySelector('.js-button');
+        console.log(buttonElement);
+
+        // console.log(document.body);
+        // document.body.innerHTML = '<button>Good job</button>'
+        
+
+        // DOCUMENT IS AN OBJECT
+        // 1) WE ACCESSED ITS BODY PROPERTY, THEN WE ACCESSED ITS INNER HTML PROPERTY, AS IT CHANGES THE CONTENT ON THE WEBPAGE, DOM IS LINKED TO THE WEB PAGE //
+        // document.body.innerHTML = 'hello';
+        // document.title = 'GOOD JOB';
+
+    </script>
+</body>
+</html>
