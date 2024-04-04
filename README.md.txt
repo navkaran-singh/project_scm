@@ -1,1 +1,2 @@
-Readme file change by nimit gulati
+Resolved conflict in text editor
+
