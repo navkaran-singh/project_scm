@@ -1,1 +1,2 @@
-Change in README 02
+Resolved conflict in text editor
+
