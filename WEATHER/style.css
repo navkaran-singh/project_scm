@@ -30,6 +30,7 @@ body{
     height: 100%;
     float: left;
     display: flex;
+    font-size : medium;
     border-radius: 25px;
     justify-content: center;
     background: url("weather.jpg");
