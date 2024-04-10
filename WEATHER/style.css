@@ -9,6 +9,7 @@
 
 body{
     height: 100vh;
+    font-size : small;
     /* VIEWPORT HEIGHT */
     display: flex;
     align-items: center;
