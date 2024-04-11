@@ -5820,7 +5820,7 @@ img {
 .rate:not(:checked)>label:before {
     content: '★ ';
 }
-
+css
 .rate>input:checked~label {
     color: #ffc700;
 }
