@@ -6,3 +6,4 @@ changes
 hello
 hi
 nimit
+Resolvedcconflict in text editor
